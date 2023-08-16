@@ -1,0 +1,2 @@
+Hello vivek
+Today lecture Design pattern

@@ -1,0 +1,11 @@
+The welcome-file-list element of web-app, is used to define a list of welcome files. Its sub element is welcome-file that is used to define the welcome file.
+
+A welcome file is the file that is invoked automatically by the server, if you don't specify any file name.
+
+By default server looks for the welcome file in following order:
+
+welcome-file-list in web.xml
+index.html
+index.htm
+index.jsp
+If none of these files are found, server renders 404 error.
